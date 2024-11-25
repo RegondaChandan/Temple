@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="Temple.css">
+    <script defer src="Temple.js"></script>
+
+</head>
+
+<body>
+    <header id="top-banner" class="decorative-border">
+        <div class="banner-content">
+            <img src="Dlogo.jpeg" alt="Temple Icon Left" class="temple-icon">
+            <div class="banner-text">
+                <h1>108 శ్రీచక్ర సహిత లలితాదేవి ఆలయం</h1>
+                <p>గ్రామ పాలస, మండలం జి, జగిత్యాల జిల్లా</p>
+                <p>Phone: +91 12345 67890 | Email: info@yourtemple.org</p>
+            </div>
+            <img src="Sri.jpg" alt="Temple Icon Right" class="temple-icon">
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li><a href="Temple.html#hero">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="Temple.html#prayers">Timings</a></li>
+                <li><a href="Temple.html#donations">Donations</a></li>
+                <li><a href="Temple.html#footer">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about-carousel">
+        <h2>About Our Temple</h2>
+        <div class="carousel-container">
+            <img id="carousel" src="DD1.jpeg" alt="Temple Image">
+        </div>
+    </section>
+
+    <footer class="enhanced-footer">
+        <div class="footer-content">
+            <!-- Contact Information -->
+            <div class="footer-contact">
+                <p><strong>Address:</strong> 108 శ్రీచక్ర సహిత లలితాదేవి ఆలయం, Hyderabad, India</p>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Email:</strong> <a href="mailto:info@durgadevitemple.com">info@durgadevitemple.com</a></p>
+            </div>
+    
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#hero">Home</a> | 
+                <a href="about.html">About Us</a> | 
+                <a href="#prayers">Timings</a> | 
+                <a href="#donations">Donations</a> | 
+                <a href="gallery.html">Gallery</a> | 
+                <a href="#contact">Contact</a>
+            </div>
+    
+            <!-- Social Media -->
+            <div class="footer-social">
+                <h4>Connect with Us</h4>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-youtube-square"></i></a>
+            </div>
+    
+            <!-- Newsletter -->
+            <div class="footer-newsletter">
+                <h4>Subscribe to our Newsletter</h4>
+                <form>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+    
+            <!-- Events and Hours -->
+            <div class="footer-events">
+                <h4>Temple Hours</h4>
+                <p>Monday - Friday: 9:00 AM - 9:00 PM</p>
+                <h4>Upcoming Festivals</h4>
+                <ul>
+                    <li><a href="#">Diwali Celebration - 10th Nov</a></li>
+                    <li><a href="#">Navaratri Pooja - 25th Oct</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-credits">
+            <p>© 2024 Temple Website. All rights reserved.</p>
+            <p>Developed by [Your Name] with contributions from Temple Volunteers.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const carouselElement = document.getElementById('carousel');
+            if (carouselElement) {
+                const images = ['DD1.jpeg', 'DDurga.jpeg', 'Shiva.jpeg', 'ss1.jpeg'];
+                let currentIndex = 0;
+        
+                function changeImage() {
+                    currentIndex = (currentIndex + 1) % images.length;
+                    carouselElement.src = images[currentIndex];
+                }
+        
+                // Change image every 4 seconds
+                setInterval(changeImage, 4000);
+            }
+        });
+        </script>
+        
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="Temple.css">
+</head>
+
+<body>
+    <header id="top-banner" class="decorative-border">
+        <div class="banner-content">
+            <img src="Dlogo.jpeg" alt="Temple Icon Left" class="temple-icon">
+            <div class="banner-text">
+                <h1>108 శ్రీచక్ర సహిత లలితాదేవి ఆలయం</h1>
+                <p>గ్రామ పాలస, మండలం జి, జగిత్యాల జిల్లా</p>
+                <p>Phone: +91 12345 67890 | Email: info@yourtemple.org</p>
+            </div>
+            <img src="Sri.jpg" alt="Temple Icon Right" class="temple-icon">
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li><a href="Temple.html#hero">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="Temple.html#prayers">Timings</a></li>
+                <li><a href="Temple.html#donations">Donations</a></li>
+                <li><a href="Temple.html#contact">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="gallery">
+        <h2>Our Temple Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="DD1.jpeg" alt="Temple Image 1" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="ss1.jpeg" alt="Temple Image 2" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Add more images and videos as needed -->
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span id="close-lightbox" class="close">&times;</span>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="Enlarged Image">
+    </div>
+
+    <footer>
+        <p>© 2024 Temple Website. All rights reserved.</p>
+    </footer>
+
+    <script src="gallery.js"></script> <!-- JavaScript file -->
+</body>
+</html>

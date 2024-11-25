@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Website</title>
+    <link rel="stylesheet" href="Temple.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script defer src="Temple.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="top-banner" class="decorative-border">
+        <div class="banner-content">
+            <img src="Dlogo.jpeg" alt="Temple Icon Left" class="temple-icon">
+            <div class="banner-text">
+                <h1>108 శ్రీచక్ర సహిత లలితాదేవి ఆలయం</h1>
+                <p>గ్రామ పాలస, మండలం జి, జగిత్యాల జిల్లా</p>
+                <p>Phone: +91 12345 67890 | Email: info@yourtemple.org</p>
+            </div>
+            <img src="Sri.jpg" alt="Temple Icon Right" class="temple-icon">
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#donations">Donations</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Slokas</a>
+                    <ul class="dropdown-content">
+                        <li><a href="chalisa.html" target="_blank">Hanuman Chalisa</a></li>
+                        <li><a href="Lalitha_Nama_Srotham.pdf" target="_blank">Lalitha Nama Srotham</a></li>
+                        <li><a href="Vishnu_Nama_Srotham.pdf" target="_blank">Vishnu Nama Srotham</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!-- Main Content Wrapper -->
+    <div class="content-wrapper">
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <div class="sidebar-section">
+                <button class="accordion-button">Temple Timings</button>
+                <div class="panel-content">
+                    <p>Monday to Friday: 9:00 AM – 1:00 PM, 6:00 PM – 9:00 PM</p>
+                    <p>Weekends & Holidays: 10:00 AM – 2:00 PM</p>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <button class="accordion-button">Thursday Programs</button>
+                <div class="panel-content">
+                    <p>Special Bhajans and Aarati at 7:00 PM every Thursday.</p>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <button class="accordion-button">Aarati Times</button>
+                <div class="panel-content">
+                    <p>Morning Aarati: 6:00 AM</p>
+                    <p>Evening Aarati: 6:30 PM</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Hero Section -->
+        <section id="hero" class="ornamental-border">
+            <div class="hero-content" data-aos="fade-in">
+                <h1>🙏నమస్కారం🙏</h1>
+                <p class="hero-quote">🕉️ శ్రీ మాత్రే నమః 🕉️</p>
+                <a href="about.html" class="cta-button">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Other sections like Prayers, Contact, etc. -->
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="enhanced-footer">
+        <div class="footer-content">
+            <!-- Contact Information -->
+            <div class="footer-contact">
+                <p><strong>Address:</strong> 108 శ్రీచక్ర సహిత లలితాదేవి ఆలయం, Hyderabad, India</p>
+                <p><strong>Phone:</strong> +91 98765 43210</p>
+                <p><strong>Email:</strong> <a href="mailto:info@durgadevitemple.com">info@durgadevitemple.com</a></p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#hero">Home</a> |
+                <a href="about.html">About Us</a> |
+                <a href="#prayers">Timings</a> |
+                <a href="#donations">Donations</a> |
+                <a href="gallery.html">Gallery</a> |
+                <a href="#contact">Contact</a>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+                <h4>Connect with Us</h4>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-youtube-square"></i></a>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-newsletter">
+                <h4>Subscribe to our Newsletter</h4>
+                <form>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <!-- Events and Hours -->
+            <div class="footer-events">
+                <h4>Temple Hours</h4>
+                <p>Monday - Friday: 9:00 AM - 9:00 PM</p>
+                <h4>Upcoming Festivals</h4>
+                <ul>
+                    <li><a href="#">Diwali Celebration - 10th Nov</a></li>
+                    <li><a href="#">Navaratri Pooja - 25th Oct</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Credits -->
+        <div class="footer-credits">
+            <p>© 2024 Temple Website. All rights reserved.</p>
+            <p>Developed by [Your Name] with contributions from Temple Volunteers.</p>
+        </div>
+    </footer>
+
+    <!-- AOS Initialization -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init({
+                duration: 1200,
+                once: false,
+            });
+        });
+    </script>
+</body>
+
+</html>
